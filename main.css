@@ -1,0 +1,133 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+
+.container {
+    max-width: 1040px;
+}
+
+.ptb-8 {
+    padding-bottom: 6rem !important;
+    padding-top: 6rem !important;
+}
+
+.ptb-8 {
+    padding-bottom: 4rem !important;
+    padding-top: 4rem !important;
+}
+
+.navbar {
+}
+
+.big-section {
+
+  background-color: #fad776;
+  opacity:0.9;
+
+}
+
+.shape-bottom{
+	background-color: #ff931e;
+}
+
+.shape-top{
+	background-color: white;
+}
+
+.bottom-break{
+	background-color: #ff931e;
+}
+
+
+.shape {
+    position: absolute
+}
+
+.shape>img,.shape>svg {
+    display: block
+}
+
+.shape:not([class*=blur]) {
+    overflow: hidden
+}
+
+.shape:not([class*=blur])>img,.shape:not([class*=blur])>svg {
+    transform: scale(1.001)
+}
+
+@media (-ms-high-contrast:active),(-ms-high-contrast:none) {
+    .shape>svg {
+        display: none
+    }
+}
+
+.shape-top {
+    top: -.75px;
+    right: -.75px;
+    left: -.75px
+}
+
+.shape-top>img,.shape-top>svg {
+    transform-origin: top center
+}
+
+.shape-right {
+    top: -.75px;
+    right: -.75px;
+    bottom: -.75px
+}
+
+.shape-right>img,.shape-right>svg {
+    transform-origin: right center;
+    margin-left: auto
+}
+
+.shape-bottom {
+    right: -.75px;
+    bottom: -.75px;
+    left: -.75px
+}
+
+.shape-bottom>img,.shape-bottom>svg {
+    transform-origin: bottom center
+}
+
+.shape-left {
+    top: -.75px;
+    bottom: -.75px;
+    left: -.75px
+}
+
+.shape-left>img,.shape-left>svg {
+    transform-origin: left center
+}
+
+.shape-fluid-x>img,.shape-fluid-x>svg {
+    width: calc(100% + 1.5px);
+    height: auto
+}
+
+.shape-fluid-y>img,.shape-fluid-y>svg {
+    height: calc(100% + 1.5px);
+    width: auto
+}
+
+.shape-fluid-y {
+    width: 100%;
+    pointer-events: none
+}
+
+.shape-flip-x {
+    transform: scaleX(-1);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
