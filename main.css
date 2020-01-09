@@ -44,7 +44,6 @@ html {
 }
 
 .bottom-break{
-	background-color: #ff931e;
 }
 
 
@@ -130,4 +129,21 @@ html {
     transform: scaleX(-1);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden
+}
+
+body {
+}
+
+.navbar-brand{
+    position: absolute;
+    top: 0;
+    left: 10;
+}
+
+.nav-black-bar{
+    width: 100%;
+    position: absolute;
+    top: 145px;
+    right: 0;
+    z-index: -1;
 }
